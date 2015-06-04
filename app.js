@@ -690,6 +690,7 @@ var Navbar = React.createClass({
               {
                 href: config.mp_browser_uri + '/apps/' + config.app_id,
                 target: '_blank'
+                className: 'navbar-right'
               },
               'View on Moneypot ',
               // External site glyphicon
